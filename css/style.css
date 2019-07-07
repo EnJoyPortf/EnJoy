@@ -354,7 +354,7 @@ to {
 
 /***********************************HERO STYLES***********************************/
 #hero {
-	background:"imagenes/seb02.jpg"
+	background: url ("imagenes/seb02.jpg");
 		/****url("https://66.media.tumblr.com/3f8fe7afaabe63a8b58eeeb909b95221/tumblr_o9wcwhhVQq1qhttpto1_1280.png")****/
 		/****url("http://www.bricho.com/demo/brian/with-particles/img/hero8.jpg")****/
 		no-repeat center center;
