@@ -365,7 +365,7 @@ position: relative;
 
 #hero {
 	
-	background: url("../imagenes/guts000.jpg") no-repeat center center;
+	background: url("../imagenes/seb_01.jpg") no-repeat center center;
 		/****url("https://66.media.tumblr.com/3f8fe7afaabe63a8b58eeeb909b95221/tumblr_o9wcwhhVQq1qhttpto1_1280.png")****/
 		/****url("http://www.bricho.com/demo/brian/with-particles/img/hero8.jpg")****/
 	background-size: cover;
@@ -388,9 +388,11 @@ position: relative;
 	transform: translate(-50%, -50%);
 }
 
+/****titulo Enjoy portf color****/
+
 .hero-content h1 {
 	font-size: 50px;
-	color: #E52E2D;
+	color: #FFFFFF;
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
