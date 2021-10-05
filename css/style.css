@@ -535,6 +535,7 @@ position: relative;
 
 /***********************************SERVICES STYLES***********************************/
 #services {
+	background: #f8f9fa;
 	
 }
 
@@ -598,7 +599,7 @@ position: relative;
 
 /***********************************PORTFOLIO STYLES***********************************/
 #portfolio {
-	background: #f8f9fa;
+	background: #fff;
 }
 
 #filter-btn, #filter-btnV  {
@@ -959,7 +960,7 @@ keyframes spin { 100% {
 	font-size: 0.7em;
 	font-weight: 700;
 	padding: 0.1em 0.4em;
-	text-align: center;
+	text-align: left;
 	-webkit-transition: color 0.3s, border-color 0.3s;
 	-moz-transition: color 0.3s, border-color 0.3s;
 	transition: color 0.3s, border-color 0.3s;
@@ -972,19 +973,21 @@ keyframes spin { 100% {
 
 .align {
 	clear: both;
-	margin: 90px auto 20px;
+	margin: 0% auto 0%;
 	width: 100%;
-	max-width: 1170px;
-	text-align: center;
+	max-width: 100%;
+	text-align: left;
+	
 }
 
 .align > li {
-	width: 500px;
-	min-height: 300px;
+	width: 20%;
+	min-height: 20%;
 	display: inline-block;
-	margin: 30px 20px 30px 30px;
-	padding: 0 0 0 60px;
+	margin: 40px 140px 70px 1%;
+	padding: 0 0 0 2%;
 	vertical-align: top;
+	
 }
 
 /* ///////////////////////////////////////////////////
@@ -1010,10 +1013,10 @@ Table of Contents
 */
 
 .book {
-	position: relative;
+	display: inline-block;
 	width: 160px; 
 	height: 220px;
-	-webkit-perspective: 1000px;
+	-webkit-perspective: 00px;
 	-moz-perspective: 1000px;
 	perspective: 1000px;
 	-webkit-transform-style: preserve-3d;
@@ -1574,12 +1577,12 @@ Table of Contents
 /* figcaption */
 
 figcaption {
-	padding-left: 40px;
+	padding-left: 112%;
 	text-align: left;
-	position: absolute;
+	display: inline-block;
 	top: 0%;
-	left: 160px;
-	width: 310px;
+	left: 0%;
+	width: 10%;
 	-webkit-backface-visibility: hidden;
 }
 
