@@ -73,7 +73,7 @@ $('#filter-btnI').on('click', 'button', function() {
 	//alert(filterValue);
 	
 	filterValue = filterFns[filterValue] || filterValue;
-	$gridV.isotope({
+	$gridI.isotope({
 		filter : filterValue
 	});
 });
