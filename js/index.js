@@ -153,6 +153,17 @@ new ScrollMagic.Scene({
 	duration : $("#contact").height()
 }).setClassToggle("#contact-link", "active").addTo(controller);
 
+new ScrollMagic.Scene({
+	triggerElement : "#services1",
+	duration : $("#contact").height()
+}).setClassToggle("#contact-link", "active").addTo(controller);
+new ScrollMagic.Scene({
+	triggerElement : "#services2",
+	duration : $("#contact").height()
+}).setClassToggle("#contact-link", "active").addTo(controller);
+
+
+
 /** *****Other Scroll Magic Elements****** */
 
 $(document).ready(
