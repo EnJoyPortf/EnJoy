@@ -13,6 +13,11 @@ var $gridV = $('.gridVideos').isotope({
 // layoutMode: 'fitRows',
 });
 
+var $gridI = $('.gridIllus').isotope({
+	itemSelector : '.img-container',
+// layoutMode: 'fitRows',
+});
+
 
 // filter functions
 var filterFns = {
@@ -60,6 +65,19 @@ $('#filter-btnV').on('click', 'button', function() {
 	});
 });
 
+//bind filter button click
+$('#filter-btnI').on('click', 'button', function() {
+	var filterValue = $(this).attr('data-filter');
+	// use filterFn if matches value
+	
+	//alert(filterValue);
+	
+	filterValue = filterFns[filterValue] || filterValue;
+	$gridV.isotope({
+		filter : filterValue
+	});
+});
+
 /** *****Popup Image Gallary in Porfolio****** */
 
 $('.popup-gallery').magnificPopup({
@@ -71,6 +89,13 @@ $('.popup-gallery').magnificPopup({
 
 $('.popup-videos-gallery').magnificPopup({
 	type : 'iframe',
+	gallery : {
+		enabled : true
+	}
+});
+
+$('.popup-illus-gallery').magnificPopup({
+	type : 'image',
 	gallery : {
 		enabled : true
 	}
