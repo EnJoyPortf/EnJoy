@@ -596,26 +596,26 @@ to {
 	background: #fff;
 }
 
-#filter-btn, #filter-btnV  {
+#filter-btn, #filter-btnV, #filter-btnI  {
 	margin-bottom: 40px;
 }
 
-#filter-btn ul, #filter-btnV ul {
+#filter-btn ul, #filter-btnV ul, #filter-btnI ul {
 	text-align: center;
 }
 
-#filter-btn li, #filter-btnV li {
+#filter-btn li, #filter-btnV li, #filter-btnI li {
 	padding-right: 20px;
 }
 
 @media screen and (max-width: 760px) {
-	#filter-btn li, #filter-btnV li {
+	#filter-btn li, #filter-btnV li, #filter-btnI li {
 		display: block;
 		margin-top: 10px;
 	}
 }
 
-#filter-btn .button, #filter-btnV .button {
+#filter-btn .button, #filter-btnV .button, #filter-btnI .button {
 	border: 1px #a3a3a3 solid;
 	padding: 10px 30px 10px 30px;
 	border-radius: 500px;
@@ -627,7 +627,7 @@ to {
 	transition: all .3s ease-out;
 }
 
-#filter-btn .button:hover, #filter-btnV .button:hover{
+#filter-btn .button:hover, #filter-btnV .button:hover, #filter-btnI .button:hover{
 	color: #E52E2D;
 }
 
