@@ -145,22 +145,18 @@ new ScrollMagic.Scene({
 	duration : $("#portfolio").height()
 }).setClassToggle("#portfolio-link", "active").addTo(controller);
 new ScrollMagic.Scene({
-	triggerElement : "#client",
-	duration : $("#client").height() + 250
-}).setClassToggle("#client-link", "active").addTo(controller);
-new ScrollMagic.Scene({
 	triggerElement : "#contact",
 	duration : $("#contact").height()
 }).setClassToggle("#contact-link", "active").addTo(controller);
 
 new ScrollMagic.Scene({
 	triggerElement : "#services1",
-	duration : $("#contact").height()
-}).setClassToggle("#contact-link", "active").addTo(controller);
+	duration : $("#services1").height()
+}).setClassToggle("#services1-link", "active").addTo(controller);
 new ScrollMagic.Scene({
 	triggerElement : "#services2",
-	duration : $("#contact").height()
-}).setClassToggle("#contact-link", "active").addTo(controller);
+	duration : $("#services2").height()
+}).setClassToggle("#services2-link", "active").addTo(controller);
 
 
 
@@ -359,3 +355,5 @@ update = function() {
 };
 requestAnimationFrame(update);
 ;
+
+
