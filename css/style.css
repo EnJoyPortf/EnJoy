@@ -145,8 +145,7 @@ a {
 	animation: anticlockwisespin 2.5s linear infinite;
 }
 
-@
--webkit-keyframes clockwisespin {from { -webkit-transform:rotate(0deg);
+@-webkit-keyframes clockwisespin {from { -webkit-transform:rotate(0deg);
 	transform: rotate(0deg);
 }
 
@@ -156,8 +155,7 @@ to {
 }
 
 }
-@
-keyframes clockwisespin {from { -webkit-transform:rotate(0deg);
+@keyframes clockwisespin {from { -webkit-transform:rotate(0deg);
 	transform: rotate(0deg);
 }
 
@@ -167,8 +165,7 @@ to {
 }
 
 }
-@
--webkit-keyframes anticlockwisespin {from { -webkit-transform:rotate(0deg);
+@-webkit-keyframes anticlockwisespin {from { -webkit-transform:rotate(0deg);
 	transform: rotate(0deg);
 }
 
@@ -178,8 +175,7 @@ to {
 }
 
 }
-@
-keyframes anticlockwisespin {from { -webkit-transform:rotate(0deg);
+@keyframes anticlockwisespin {from { -webkit-transform:rotate(0deg);
 	transform: rotate(0deg);
 }
 
@@ -189,8 +185,7 @@ to {
 }
 
 }
-@
--webkit-keyframes fadeout {from { opactity:1;
+@-webkit-keyframes fadeout {from { opactity:1;
 	
 }
 
@@ -199,8 +194,7 @@ to {
 }
 
 }
-@
-keyframes fadeout {from { opactity:1;
+@keyframes fadeout {from { opactity:1;
 	
 }
 
@@ -919,13 +913,11 @@ footer {
 	border-color: #999 transparent;
 }
 
-@
-keyframes spin { 100% {
+@keyframes spin { 100% {
 	transform: rotate(359deg);
 }
 
-}
-@media ( max-width :470px) {
+}@media ( max-width :470px) {
 	.videominiaturas a div {
 		display: none !important;
 	}
