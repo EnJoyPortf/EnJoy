@@ -1,0 +1,50 @@
+{
+    "./imagenes/img_A": ["a1.jpg", "a2.png"],
+    "./imagenes/img_B": ["b1.jpg"],
+    "./imagenes/img_c": 
+        ["PBIM_01.png",
+        "PBIM_02.png",
+        "PBIM_03.png",
+        "PBIM_04.png",
+        "PBIM_05.png",
+        "PBIM_06.png",
+        "PBIM_07.png",
+        "PBIM_08.png",
+        "PBIM_09.png"],
+        
+    "./imagenes/img_H": 
+        ["PBIM_01.png",
+        "PBIM_02.png",
+        "PBIM_03.png",
+        "PBIM_04.png",
+        "PBIM_05.png",
+        "PBIM_06.png",
+        "PBIM_07.png",
+        "PBIM_08.png",
+        "PBIM_09.png"],
+    "./imagenes/jpg":
+        ["maque_portf1.jpg", 
+        "maque_portf2.jpg",        
+        "maque_portf3.jpg",
+        "maque_portf4.jpg",
+        "maque_portf5.jpg",
+        "maque_portf6.jpg",
+        "maque_portf7.jpg",
+        "maque_portf8.jpg",
+        "maque_portf9.jpg",
+        "maque_portf10.jpg",
+        "maque_portf11.jpg",
+        "maque_portf12.jpg",
+        "maque_portf13.jpg",
+        "maque_portf14.jpg",
+        "maque_portf15.jpg",
+        "maque_portf16.jpg",
+        "maque_portf17.jpg",
+        "maque_portf18.jpg",
+        "maque_portf19.jpg",
+        "maque_portf20.jpg",
+        "maque_portf21.jpg"]
+
+    
+        
+  }
