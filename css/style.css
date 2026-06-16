@@ -241,7 +241,7 @@ to {
 	line-height: 1;
 	font-size: 27pt;
 	font-weight: bold;
-	color: #571cc9;
+	color: #ffffff;
 	font-family: "Dancing Script", cursive;
 }
 
@@ -294,7 +294,7 @@ to {
 }
 
 #main-header nav ul a {
-	color: #454545;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 14px;
 	-webkit-transition: color 0.3s ease;
@@ -335,7 +335,7 @@ to {
 	height: 4px;
 	margin-bottom: 6px;
 	border-radius: 1000px;
-	background: #454545;
+	background: #ffffff;
 	display: block;
 }
 
