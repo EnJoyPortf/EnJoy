@@ -303,11 +303,11 @@ to {
 }
 
 #main-header nav ul .active {
-	color: #571cc9;
+	color: #b400ff;
 }
 
 #main-header nav ul a:hover {
-	color: #571cc9;
+	color: #b400ff;
 }
 
 .mobile-toggle {
@@ -463,7 +463,7 @@ to {
 }
 
 .about-social .fab:hover, .about-social .far:hover {
-	color: #571cc9;
+	color: #b400ff;
 }
 
 .skill-progress-container p {
@@ -494,7 +494,7 @@ to {
 .inner-percent {
 	height: inherit;
 	width: 0;
-	background: #571cc9;
+	background: #b400ff;
 	-webkit-transition: all .3s linear;
 	-o-transition: all .3s linear;
 	transition: all .3s linear;
